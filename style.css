@@ -1,0 +1,236 @@
+*{
+    margin:0;
+    padding: 0; 
+}
+body{
+    overflow-x: hidden;
+}
+.header .content-box{
+    background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url(images/home.jpg);
+    /* background: red; */
+    background-position:center ;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.menu{
+    display: inline-flex;
+
+}
+.menu img{
+    height: 92px;
+    margin: 20px 0 0 77px;
+    cursor: pointer;
+    width: 189px;
+}
+.menu button{
+    padding: 9px 25px;
+    background: #dd6223;
+    color: #fff;
+    font-size: 18px;
+    border:1px solid #dd6223 !important;
+    border: 0;
+    position: absolute;
+    right: 8%;
+    top: 5%;
+    transition: background .3s;
+    border-radius: 2px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.menu button:hover{
+    background: transparent;
+}
+.menu button .fa{
+    margin-right: 5px;
+}
+.banner-text{
+    width: 80%;
+    color: #fff;
+    margin: 16% auto 0;
+    text-align:center ;
+}
+.banner-text h2{
+    color: white;
+    font-size: 78px;
+    padding: 12px;
+    margin-top: -100px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.banner-text p{
+    color: white;
+    font-size:16px;
+    font-family: 'Baloo Tamma 2', cursive;
+} 
+.banner-text a{
+    text-decoration: none!important;
+    color: white;
+    background: #dd6223;
+    border: 1px solid #dd6223;
+    padding: 10px;
+    margin: 34px auto;
+    border-radius: 2px;
+    width: 165px;
+    align-items: center;
+    position: absolute;
+    left: 43%;
+    font-family: 'Baloo Tamma 2', cursive;
+    transition: background .3s;
+}
+.banner-text a:hover{
+    background: transparent;
+    color: white;
+}
+
+
+/* -----------service-------------- */
+.content-box{
+    height: 100vh;
+    width: 100%;
+    background: rgb(252, 247, 240);
+}
+h1{
+    text-align:center;
+    padding-top: 100px;
+}
+h1::after{
+    content: '';
+    background: #dd6223;
+    display: block;
+    height: 3px;
+    width: 120px;
+    margin: 20px auto 50px;
+}
+.services .icon{
+    font-size:30px ;
+    height:70px ;
+    padding:10px;
+    margin: 20px auto;
+    width: 70px;
+    border: 1px solid #dd6223;
+    border-radius: 50%;
+    color:#dd6223;
+}
+.services{
+    font-size:15px ;
+    margin-top: 10px;
+    color: #777;
+    padding:20px ;
+}
+.services span{
+    color: #dd6223;
+    transition: .5s;
+}
+.services .col-md-3:hover{
+    background: #dd6223;
+    cursor: pointer;
+    color: white;
+    box-shadow: -5px 5px 10px 0 rgba(0,0,0,.4);
+    transition:.4s;
+}
+.services .col-md-3:hover .icon{
+    color: white;
+    border:1px solid white;
+}
+.services .col-md-3:hover span{
+    color: white;
+}
+
+
+
+/* -------------feature------------- */
+.feature h2{
+    margin: 95px;
+}
+.feature h2::after{
+    content: '';
+    background: #dd6223;
+    display: block;
+    width: 100px;
+    margin: 16px auto 20px;
+    position: absolute;
+    left: 155px;
+    height: 3px;
+}
+.feature ul{
+    margin-top: -25px;
+    margin-left: 50px;
+    list-style-type:none;
+}
+.feature ul li{
+    line-height:40px;
+    font-size:14px;
+    position: relative;
+}
+.feature ul li::after{
+    content: '';
+    height: 7px;
+    width: 7px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 17px;
+    left: -25px;
+    background: #dd6223;
+}
+.feature img{
+    margin-top:130px ;
+    box-shadow: -5px 5px 10px 0 rgba(0,0,0,.4);
+}
+
+/* -----------Footer------------ */
+input{
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+}
+.footer h1{
+    padding-top: 50px;
+}
+.contact-form{
+    padding: 15px;
+}
+.form-control{
+    border-radius: 0 !important;
+    border: none !important;
+    box-shadow: 0px 0px 5px 0 rgba(66, 34, 34, 0.2);
+}
+::placeholder{
+    font-size: 12px;
+}
+.contact-form button{
+    border: none !important;
+    background: #dd6223 !important;
+    box-shadow: none !important;
+    border-radius: 1px !important;
+}
+.contact-info .follow{
+    background: #fff;
+    padding: 7px;
+    margin: 40px;
+    box-shadow: 0px 0px 5px 0 rgba(66, 34, 34, 0.2);
+}
+.contact-info .fa{
+    margin: 10px;
+    font-size: 20px !important;
+    color: #dd6223 !important;
+    font-weight: bold;
+    padding-right: 20px;
+}
+.contact-info span{
+    font-size: 14px;
+}
+/* -----copyright------ */
+.copyright{
+    text-align: center;
+    font-size: 14px;
+}
+.fa-heart-o{
+    color: red;
+    font-size: 17px;
+}
+.footer hr{
+    margin-top: 50px;
+    background: #dd6223;
+}
+
+.service , .feature , .footer{
+    margin-top: 7%;
+}
